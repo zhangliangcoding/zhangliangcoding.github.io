@@ -5,18 +5,22 @@
   
 
   
-  <title>凉凉的博客</title>
+  <title>Mybatis概述 | 凉凉的博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="有时间就整理一下，不定期更新，内容题材不限，欢迎交流。kpzsd1020@163.com">
-<meta property="og:type" content="website">
-<meta property="og:title" content="凉凉的博客">
-<meta property="og:url" content="http://www.kpzsd.com/index.html">
+  <meta name="description" content="Mybatis概述MyBatis 是一款优秀的持久层框架，它支持定制化 SQL、存储过程以及高级映射。MyBatis 避免了几乎所有的JDBC 代码和手动设置参数以及获取结果集。MyBatis 可以使用简单的 XML 或注解来配置和映射原生信息，将接口和 Java 的 POJOs(Plain Old Java Objects,普通的 Java对象)映射成数据库中的记录。 – 官网 整体架构通过上图">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Mybatis概述">
+<meta property="og:url" content="http://www.kpzsd.com/20181231/mybatis概述-1/index.html">
 <meta property="og:site_name" content="凉凉的博客">
-<meta property="og:description" content="有时间就整理一下，不定期更新，内容题材不限，欢迎交流。kpzsd1020@163.com">
+<meta property="og:description" content="Mybatis概述MyBatis 是一款优秀的持久层框架，它支持定制化 SQL、存储过程以及高级映射。MyBatis 避免了几乎所有的JDBC 代码和手动设置参数以及获取结果集。MyBatis 可以使用简单的 XML 或注解来配置和映射原生信息，将接口和 Java 的 POJOs(Plain Old Java Objects,普通的 Java对象)映射成数据库中的记录。 – 官网 整体架构通过上图">
 <meta property="og:locale" content="default">
+<meta property="og:image" content="http://www.kpzsd.com/20181231/mybatis概述-1/img/Mybatis.png">
+<meta property="og:image" content="http://www.kpzsd.com/20181231/mybatis概述-1/img/Executor&Cache.png">
+<meta property="og:updated_time" content="2018-12-31T08:19:30.010Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="凉凉的博客">
-<meta name="twitter:description" content="有时间就整理一下，不定期更新，内容题材不限，欢迎交流。kpzsd1020@163.com">
+<meta name="twitter:title" content="Mybatis概述">
+<meta name="twitter:description" content="Mybatis概述MyBatis 是一款优秀的持久层框架，它支持定制化 SQL、存储过程以及高级映射。MyBatis 避免了几乎所有的JDBC 代码和手动设置参数以及获取结果集。MyBatis 可以使用简单的 XML 或注解来配置和映射原生信息，将接口和 Java 的 POJOs(Plain Old Java Objects,普通的 Java对象)映射成数据库中的记录。 – 官网 整体架构通过上图">
+<meta name="twitter:image" content="http://www.kpzsd.com/20181231/mybatis概述-1/img/Mybatis.png">
   
     <link rel="alternate" href="/atom.xml" title="凉凉的博客" type="application/atom+xml">
   
@@ -67,9 +71,7 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main">
-  
-    <article id="post-mybatis概述-1" class="article article-type-post" itemscope="" itemprop="blogPost">
+        <section id="main"><article id="post-mybatis概述-1" class="article article-type-post" itemscope="" itemprop="blogPost">
   <div class="article-meta">
     <a href="/20181231/mybatis概述-1/" class="article-date">
   <time datetime="2018-12-31T08:19:30.029Z" itemprop="datePublished">2018-12-31</time>
@@ -82,8 +84,8 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/20181231/mybatis概述-1/">Mybatis概述</a>
+    <h1 class="article-title" itemprop="name">
+      Mybatis概述
     </h1>
   
 
@@ -125,56 +127,19 @@
     </footer>
   </div>
   
-</article>
-
-
+    
+<nav id="article-nav">
   
-    <article id="post-hello-world" class="article article-type-post" itemscope="" itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/20181231/hello-world/" class="article-date">
-  <time datetime="2018-12-31T08:18:49.240Z" itemprop="datePublished">2018-12-31</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/20181231/hello-world/">Use Hexo Wtire Blog</a>
-    </h1>
+    <a href="/20181231/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">Use Hexo Wtire Blog</div>
+    </a>
   
+</nav>
 
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://www.kpzsd.com/20181231/hello-world/" data-id="cjqktg3f10000z5ltoi6slkm6" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
   
 </article>
-
-
-  
-
 
 </section>
         
